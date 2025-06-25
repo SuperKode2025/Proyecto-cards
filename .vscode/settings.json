@@ -9,8 +9,11 @@
         "Comida",
         "Corrige",
         "curso",
+        "derecha",
         "Desarrollo",
         "Entrar",
+        "esquina",
+        "Esquinas",
         "fondo",
         "Formentera",
         "Foto",
@@ -34,13 +37,17 @@
         "muestran",
         "Musica",
         "mybackground",
+        "oscuro",
         "Otros",
         "Patatas",
+        "pegado",
         "Perro",
         "presentación",
         "Proyect",
         "Proyecto",
         "recursos",
+        "redondeadas",
+        "semitransparente",
         "Sergi",
         "Serie",
         "Servidor",
@@ -48,6 +55,7 @@
         "Sobrenatural",
         "tarjetas",
         "usuario",
-        "Videojuego"
+        "Videojuego",
+        "volver"
     ]
 }
