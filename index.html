@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Cards</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="/recursos/code_main.css">
     <link rel="icon" href="/recursos/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -43,7 +43,14 @@
         <a href="/paginas/discord/discord.html" target="_blank" rel="noopener" title="Servidor Discord">
             <i class="fa-solid fa-server"></i>
         </a>
-        <span class="made-by">Made by WiZiSergio</span>
+        <span class="made-by" id="made-by"></span>
     </footer>
+    <script type="text/javascript">
+        fetch('/recursos/words.txt')
+          .then(response => response.text())
+          .then(text => {
+            document.getElementById('made-by').textContent = text;
+          });
+    </script>
 </body>
 </html>
