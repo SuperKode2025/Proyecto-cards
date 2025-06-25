@@ -56,3 +56,20 @@ ul li {
     transition: background 0.2s;
     z-index: 1000;
 }
+
+.container-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.img-card {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%; /* Hace la imagen completamente redonda */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    margin-top: 0;
+}
