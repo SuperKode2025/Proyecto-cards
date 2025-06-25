@@ -1,0 +1,59 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    background-image: url('/recursos/fondo_principal.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.card-discord {
+    background: rgba(30, 31, 34, 0.50); /* Fondo oscuro semitransparente */
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+    padding: 40px 32px;
+    text-align: center;
+    min-width: 340px;
+    max-width: 90vw;
+}
+
+.card-discord h2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 18px;
+}
+
+.card-discord p {
+    color: #d1d1d1;
+    font-size: 1.05rem;
+    margin-bottom: 28px;
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 12px;
+    background: #5865F2;
+    color: #fff;
+    padding: 14px 0;
+    width: 90%;
+    max-width: 320px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    border: none;
+    outline: none;
+}
+
+.btn-volver:hover {
+    background: #404eed;
+}
