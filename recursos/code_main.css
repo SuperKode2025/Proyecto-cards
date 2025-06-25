@@ -86,3 +86,11 @@ header {
     pointer-events: none;
     z-index: 1100;
 }
+
+.logo-f5 {
+    height: 36px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 16px;
+    margin-right: 0;
+}
